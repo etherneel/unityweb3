@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+html, #root, body{
+  background-color: black; 
+  font-family: "Plus Jakarta Sans" !important;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.new_box{
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  font-family: "Plus Jakarta Sans" !important;
+  font-optical-sizing: auto;
+  font-style: normal;
+  transform: translate(-50%, -50%);
+}
+
+.logo_real{
+  margin: auto;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-right: 10px;
+}
+
+.logo_real img{
+  margin: auto;
+  width: 245px;
+}
+
+.bg_div{
+  height: 330px;
+  margin: auto;
+  max-width: 500px !important;
+  background-color: #0E0E0E !important  ;
+  border-radius: 15px;
+  position: relative;
+}
+
+.connect-button button{
+  min-width: 237px !important;
+  background: #1f4fac;
+  color: white;
+  width: 100% !;
+
+}
+
+
+
+.opacity-3{
+  opacity: 0.3 !important;
+}
+
+
+
+.buttonsNew{
+  background: #1f4fac;
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  margin: auto;
+}
+
+
+.flex{
+  display: flex;
+}
+
+.text-white{
+  color: white !important;
+}
+
+.absolute-loader{
+     position: absolute;
+     top: 50%;
+    left: 50;
+    left: 50%;
+}
+
+
+.box_main{
+  margin-top: 80px;
+}
